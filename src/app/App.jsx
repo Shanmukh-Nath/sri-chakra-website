@@ -1,0 +1,42 @@
+import { LanguageProvider } from "../context/LanguageContext";
+import { useState } from "react";
+import AppProviders from "./AppProviders";
+import SystemMenu from "../layout/SystemMenu";
+import Footer from "../layout/Footer";
+import AppRoutes from "../routes/AppRoutes";
+import BlueprintGrid from "../ui/BlueprintGrid";
+import Crosshair from "../ui/Crosshair";
+import PageTransition from "../ui/PageTransition";
+import Header from "../layout/Header";
+
+const App = () => {
+  const [isSystemMenuOpen, setIsSystemMenuOpen] = useState(false);
+  const [triggerTransition, setTriggerTransition] = useState(false);
+
+  return (
+    <LanguageProvider>
+      <AppProviders>
+        {/* Background layer */}
+        <BlueprintGrid />
+        <Crosshair />
+        <Header
+          onMenuToggle={() => {
+            setTriggerTransition(true);
+
+            setTimeout(() => {
+              setIsSystemMenuOpen(true);
+            }, 450); // must match transition timing
+          }}
+        />
+        <SystemMenu
+          open={isSystemMenuOpen}
+          onClose={() => setIsSystemMenuOpen(false)}
+        />
+        <AppRoutes />
+        <Footer />
+      </AppProviders>
+    </LanguageProvider>
+  );
+};
+
+export default App;
