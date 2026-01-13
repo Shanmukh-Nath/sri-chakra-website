@@ -8,6 +8,7 @@ import BlueprintGrid from "../ui/BlueprintGrid";
 import Crosshair from "../ui/Crosshair";
 import PageTransition from "../ui/PageTransition";
 import Header from "../layout/Header";
+import WhatsAppFloat from "../layout/WhatsAppFloat";
 
 const App = () => {
   const [isSystemMenuOpen, setIsSystemMenuOpen] = useState(false);
@@ -34,6 +35,7 @@ const App = () => {
         />
         <AppRoutes />
         <Footer />
+        <WhatsAppFloat />
       </AppProviders>
     </LanguageProvider>
   );

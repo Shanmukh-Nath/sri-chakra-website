@@ -136,7 +136,7 @@ const styles = {
   wrapper: {
     position: "fixed",
     pointerEvents: "none",
-    zIndex: 9999,
+    zIndex: 9999999,
     transform: "translate(-50%, -50%)",
   },
   cursor: {
