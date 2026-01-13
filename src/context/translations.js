@@ -72,6 +72,66 @@ const translations = {
         footer: "Foundational Engineering Philosophy",
       },
     },
+    about: {
+      hero: {
+        eyebrow: "OUR IDENTITY",
+        title: "About Us",
+        description:
+          "Established with a vision to redefine infrastructure, Sri Chakra Industries stands at the forefront of precision engineering. We specialize in high-grade steel solutions that serve as the backbone for national progress, ensuring safety and durability in every project.",
+      },
+      pillars: {
+        crashBarriers: {
+          title: "Highway Safety Systems",
+          subtitle: "W-Beam Crash Barriers",
+          description:
+            "Defining road safety standards with W-beam crash barriers engineered for maximum impact energy absorption and passenger protection.",
+        },
+        railway: {
+          title: "Railway Infrastructure",
+          subtitle: "Structural Components",
+          description:
+            "Supporting the backbone of Indian transportation with high-precision components and structural solutions for railway modernization.",
+        },
+        roofing: {
+          title: "Industrial Roofing",
+          subtitle: "Structural Profiles",
+          description:
+            "Durable, high-strength roofing solutions designed for industrial scale, ensuring long-term structural integrity and weather resistance.",
+        },
+      },
+      related: {
+        title: "Technical Excellence",
+        items: [
+          {
+            label: "PRECISION",
+            value: "Micron-level accuracy in all steel forming processes.",
+          },
+          {
+            label: "DURABILITY",
+            value: "Engineered to withstand extreme environmental conditions.",
+          },
+          {
+            label: "COMPLIANCE",
+            value: "Fully compliant with NHAI and International standards.",
+          },
+        ],
+      },
+      background: {
+        title: "COMPANY BACKGROUND",
+        description:
+          "Founded on the principles of material science and technical integrity, Sri Chakra Industries has evolved from a specialized manufacturing unit to a key partner in national infrastructure. Our journey is defined by a commitment to precision, scaling industrial capabilities across highways, railways, and roofing sectors with a focus on durability and long-term reliability.",
+      },
+      visionMission: {
+        vision: {
+          title: "OUR VISION",
+          text: "To be the global benchmark in precision steel infrastructure, engineering a safer and stronger world through innovation, integrity, and technical excellence.",
+        },
+        mission: {
+          title: "OUR MISSION",
+          text: "Delivering high-performance structural solutions with uncompromising quality, technical discipline, and sustainable manufacturing practices that drive national progress and industrial evolution.",
+        },
+      },
+    },
 
     language: {
       en: "English",
@@ -150,6 +210,66 @@ const translations = {
           "దశాబ్దాల పాటు నిలిచే వ్యవస్థలు",
         ],
         footer: "మౌలిక ఇంజినీరింగ్ తత్వం",
+      },
+    },
+    about: {
+      hero: {
+        eyebrow: "మా గుర్తింపు",
+        title: "మా గురించి",
+        description:
+          "మౌలిక సదుపాయాల పునర్నిర్వచనం లక్ష్యంగా స్థాపించబడిన శ్రీ చక్ర ఇండస్ట్రీస్, ఖచ్చితమైన ఇంజనీరింగ్‌లో అగ్రగామిగా నిలుస్తుంది. మేము జాతీయ పురోగతికి వెన్నెముకగా నిలిచే మరియు ప్రతి ప్రాజెక్ట్‌లో భద్రత మరియు మన్నికను నిర్ధారించే అధిక-గ్రేడ్ స్టీల్ పరిష్కారాలలో ప్రత్యేకత కలిగి ఉన్నాము.",
+      },
+      pillars: {
+        crashBarriers: {
+          title: "హైవే భద్రతా వ్యవస్థలు",
+          subtitle: "W-బీమ్ క్రాష్ బారియర్స్",
+          description:
+            "గరిష్ట ప్రభావ శక్తి శోషణ మరియు ప్రయాణీకుల రక్షణ కోసం రూపొందించిన W-బీమ్ క్రాష్ బారియర్లతో రోడ్డు భద్రతా ప్రమాణాలను నిర్వచిస్తున్నాము.",
+        },
+        railway: {
+          title: "రైల్వే మౌలిక సదుపాయాలు",
+          subtitle: "నిర్మాణ భాగాలు",
+          description:
+            "రైల్వే ఆధునీకరణ కోసం అధిక-ఖచ్చితత్వ భాగాలు మరియు నిర్మాణ పరిష్కారాలతో భారతీయ రవాణా వెన్నెముకకు మద్దతు ఇస్తున్నాము.",
+        },
+        roofing: {
+          title: "పారిశ్రామిక రూఫింగ్",
+          subtitle: "నిర్మాణ ప్రొఫైల్స్",
+          description:
+            "పారిశ్రామిక స్థాయి కోసం రూపొందించిన మన్నికైన, అధిక-బలం కలిగిన రూఫింగ్ పరిష్కారాలు, దీర్ఘకాలిక నిర్మాణ సమగ్రతను నిర్ధారిస్తాయి.",
+        },
+      },
+      related: {
+        title: "సాంకేతిక నైపుణ్యం",
+        items: [
+          {
+            label: "ఖచ్చితత్వం",
+            value: "అన్ని ఉక్కు తయారీ ప్రక్రియల్లో మైక్రాన్-స్థాయి ఖచ్చితత్వం.",
+          },
+          {
+            label: "మన్నిక",
+            value: "తీవ్రమైన పర్యావరణ పరిస్థితులను తట్టుకునేలా రూపకల్పన చేయబడింది.",
+          },
+          {
+            label: "ప్రమాణాలు",
+            value: "NHAI మరియు అంతర్జాతీయ ప్రమాణాలకు పూర్తిగా కట్టుబడి ఉంటుంది.",
+          },
+        ],
+      },
+      background: {
+        title: "కంపెనీ నేపథ్యం",
+        description:
+          "పదార్థ విజ్ఞానం మరియు సాంకేతిక చిత్తశుద్ధి సూత్రాలపై స్థాపించబడిన శ్రీ చక్ర ఇండస్ట్రీస్, ఒక ప్రత్యేక తయారీ విభాగం నుండి జాతీయ మౌలిక సదుపాయాలలో కీలక భాగస్వామిగా ఎదిగింది. మా ప్రయాణం ఖచ్చితత్వం పట్ల మా నిబద్ధత మరియు హైవేలు, రైల్వేలు మరియు రూఫింగ్ రంగాలలో పారిశ్రామిక సామర్థ్యాలను విస్తరించడం ద్వారా నిర్వచించబడింది.",
+      },
+      visionMission: {
+        vision: {
+          title: "మా విజన్",
+          text: "ఆవిష్కరణల ద్వారా సురక్షితమైన మరియు బలమైన ప్రపంచాన్ని రూపొండిస్తూ, ఖచ్చితమైన స్టీల్ మౌలిక సదుపాయాలలో ప్రపంచ స్థాయి ప్రమాణంగా నిలవడం మా లక్ష్యం.",
+        },
+        mission: {
+          title: "మా మిషన్",
+          text: "జాతీయ పురోగతి కోసం రాజీలేని నాణ్యత, సాంకేతిక క్రమశిక్షణ మరియు సమర్థవంతమైన తయారీ పద్ధతులతో అధిక-పనితీరు గల నిర్మాణ పరిష్కారాలను అందించడం మా ధ్యేయం.",
+        },
       },
     },
 
@@ -231,6 +351,66 @@ const translations = {
           "दशकों तक टिकने वाली प्रणालियाँ",
         ],
         footer: "मूलभूत इंजीनियरिंग दर्शन",
+      },
+    },
+    about: {
+      hero: {
+        eyebrow: "हमारी पहचान",
+        title: "हमारे बारे में",
+        description:
+          "बुनियादी ढांचे को फिर से परिभाषित करने के दृष्टिकोण के साथ स्थापित, श्री चक्र इंडस्ट्रीज सटीक इंजीनियरिंग में सबसे आगे है। हम उच्च-श्रेणी के स्टील समाधानों में विशेषज्ञ हैं जो राष्ट्रीय प्रगति की रीढ़ के रूप में काम करते हैं, हर परियोजना में सुरक्षा और स्थायित्व सुनिश्चित करते हैं।",
+      },
+      pillars: {
+        crashBarriers: {
+          title: "राजमार्ग सुरक्षा प्रणालियाँ",
+          subtitle: "डब्लू-बीम क्रैश बैरियर",
+          description:
+            "अधिकतम प्रभाव ऊर्जा अवशोषण और यात्री सुरक्षा के लिए इंजीनियर किए गए डब्लू-बीम क्रैश बैरियर के साथ सड़क सुरक्षा मानकों को परिभाषित करना।",
+        },
+        railway: {
+          title: "रेलवे बुनियादी ढांचा",
+          subtitle: "संरचनात्मक घटक",
+          description:
+            "रेलवे आधुनिकीकरण के लिए उच्च-सटीक घटकों और संरचनात्मक समाधानों के साथ भारतीय परिवहन की रीढ़ का समर्थन करना।",
+        },
+        roofing: {
+          title: "औद्योगिक छत",
+          subtitle: "संरचनात्मक प्रोफाइल",
+          description:
+            "औद्योगिक पैमाने के लिए डिज़ाइन किए गए टिकाऊ, उच्च-शक्ति वाले छत समाधान, दीर्घकालिक संरचनात्मक अखंडता सुनिश्चित करते हैं।",
+        },
+      },
+      related: {
+        title: "तकनीकी उत्कृष्टता",
+        items: [
+          {
+            label: "सटीकता",
+            value: "सभी स्टील बनाने की प्रक्रियाओं में माइक्रोन-स्तरीय सटीकता।",
+          },
+          {
+            label: "स्थायित्व",
+            value: "चरम पर्यावरणीय परिस्थितियों का सामना करने के लिए इंजीनियर किया गया।",
+          },
+          {
+            label: "अनुपालन",
+            value: "NHAI और अंतर्राष्ट्रीय मानकों के पूर्णतः अनुरूप।",
+          },
+        ],
+      },
+      background: {
+        title: "कंपनी की पृष्ठभूमि",
+        description:
+          "सामग्री विज्ञान और तकनीकी अखंडता के सिद्धांतों पर स्थापित, श्री चक्र इंडस्ट्रीज एक विशेष विनिर्माण इकाई से राष्ट्रीय बुनियादी ढांचे में एक प्रमुख भागीदार के रूप में विकसित हुई है। हमारी यात्रा सटीकता के प्रति प्रतिबद्धता और राजमार्गों, रेलवे और छत क्षेत्रों में औद्योगिक क्षमताओं के विस्तार द्वारा परिभाषित है।",
+      },
+      visionMission: {
+        vision: {
+          title: "हमारा विजन",
+          text: "नवाचार के माध्यम से एक सुरक्षित और मजबूत दुनिया का निर्माण करते हुए, सटीक स्टील बुनियादी ढांचे में वैश्विक मानक बनना।",
+        },
+        mission: {
+          title: "हमारा मिशन",
+          text: "राष्ट्रीय प्रगति के लिए बिना किसी समझौते की गुणवत्ता, तकनीकी अनुशासन और टिकाऊ विनिर्माण प्रथाओं के साथ उच्च प्रदर्शन वाले संरचनात्मक समाधान प्रदान करना।",
+        },
       },
     },
 

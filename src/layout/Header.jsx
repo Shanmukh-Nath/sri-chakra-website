@@ -24,7 +24,7 @@ const Header = ({ onMenuToggle }) => {
           <div style={styles.mobileLogo}>
             <div style={styles.logoBox}>
               <img
-                src="https://i.ibb.co/BKccWrr5/sri-chakra-true-final-copy.png"
+                src="/media/images/logos/logo.png"
                 alt="Sri Chakra Industries Logo"
                 style={styles.logoImage}
                 draggable={false}
@@ -69,7 +69,7 @@ const Header = ({ onMenuToggle }) => {
       <div style={styles.logoWrapper}>
         <div style={styles.logoBox}>
           <img
-            src="https://i.ibb.co/BKccWrr5/sri-chakra-true-final-copy.png"
+            src="/media/images/logos/logo.png"
             alt="Sri Chakra Industries Logo"
             style={styles.logoImage}
             draggable={false}
