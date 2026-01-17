@@ -132,6 +132,44 @@ const translations = {
         },
       },
     },
+    products: {
+      intro: {
+        eyebrow: "PRODUCT ENGINEERING",
+        title: "Built for Roads. Engineered for Safety.",
+        description:
+          "Sri Chakra Industries manufactures critical steel infrastructure components designed for durability, safety, and large-scale deployment. Every product is engineered to meet national standards and real-world conditions.",
+        stats: [
+          { value: "15+ YEARS", label: "Manufacturing Experience" },
+          { value: "ISO 9001", label: "Quality Certified" },
+          { value: "PAN INDIA", label: "Supply Network" },
+        ],
+      },
+      grid: {
+        cta: "VIEW DETAILS",
+        items: [
+          {
+            title: "Crash Barriers",
+            description:
+              "High-strength steel crash barriers engineered to absorb impact energy and enhance roadside safety across highways and expressways.",
+          },
+          {
+            title: "W-Beam Guardrails",
+            description:
+              "Precision-formed W-beam guardrails manufactured to meet national highway safety standards and long-term durability requirements.",
+          },
+          {
+            title: "Metal Beam Crash Barriers",
+            description:
+              "Robust metal beam systems designed for controlled vehicle deceleration and maximum passenger protection.",
+          },
+          {
+            title: "Structural Steel Components",
+            description:
+              "Custom-fabricated steel components for infrastructure, industrial, and public works applications.",
+          },
+        ],
+      },
+    },
 
     language: {
       en: "English",
@@ -248,11 +286,13 @@ const translations = {
           },
           {
             label: "మన్నిక",
-            value: "తీవ్రమైన పర్యావరణ పరిస్థితులను తట్టుకునేలా రూపకల్పన చేయబడింది.",
+            value:
+              "తీవ్రమైన పర్యావరణ పరిస్థితులను తట్టుకునేలా రూపకల్పన చేయబడింది.",
           },
           {
             label: "ప్రమాణాలు",
-            value: "NHAI మరియు అంతర్జాతీయ ప్రమాణాలకు పూర్తిగా కట్టుబడి ఉంటుంది.",
+            value:
+              "NHAI మరియు అంతర్జాతీయ ప్రమాణాలకు పూర్తిగా కట్టుబడి ఉంటుంది.",
           },
         ],
       },
@@ -270,6 +310,44 @@ const translations = {
           title: "మా మిషన్",
           text: "జాతీయ పురోగతి కోసం రాజీలేని నాణ్యత, సాంకేతిక క్రమశిక్షణ మరియు సమర్థవంతమైన తయారీ పద్ధతులతో అధిక-పనితీరు గల నిర్మాణ పరిష్కారాలను అందించడం మా ధ్యేయం.",
         },
+      },
+    },
+    products: {
+      intro: {
+        eyebrow: "ఉత్పత్తి ఇంజినీరింగ్",
+        title: "రోడ్ల కోసం నిర్మితం. భద్రత కోసం ఇంజినీర్డ్.",
+        description:
+          "శ్రీ చక్ర ఇండస్ట్రీస్ బలమైన, సురక్షితమైన మరియు విస్తృత స్థాయి వినియోగానికి అనువైన కీలక స్టీల్ మౌలిక సదుపాయ ఉత్పత్తులను తయారు చేస్తుంది. ప్రతి ఉత్పత్తి జాతీయ ప్రమాణాలకు అనుగుణంగా రూపొందించబడుతుంది.",
+        stats: [
+          { value: "15+ సంవత్సరాలు", label: "తయారీ అనుభవం" },
+          { value: "ISO 9001", label: "నాణ్యత ధృవీకరణ" },
+          { value: "పాన్ ఇండియా", label: "సరఫరా నెట్‌వర్క్" },
+        ],
+      },
+      grid: {
+        cta: "వివరాలు చూడండి",
+        items: [
+          {
+            title: "క్రాష్ బారియర్లు",
+            description:
+              "హైవేలు మరియు ఎక్స్‌ప్రెస్‌వేల్లో ప్రమాద తీవ్రతను తగ్గించేందుకు రూపొందించిన అధిక బలం గల స్టీల్ క్రాష్ బారియర్లు.",
+          },
+          {
+            title: "డబ్ల్యూ-బీమ్ గార్డ్‌రైల్స్",
+            description:
+              "జాతీయ రహదారి భద్రతా ప్రమాణాలకు అనుగుణంగా తయారు చేసిన ఖచ్చితమైన డబ్ల్యూ-బీమ్ గార్డ్‌రైల్స్.",
+          },
+          {
+            title: "మెటల్ బీమ్ క్రాష్ బారియర్లు",
+            description:
+              "వాహన వేగాన్ని నియంత్రించి ప్రయాణికుల భద్రతను గరిష్టంగా పెంచే బలమైన మెటల్ బీమ్ వ్యవస్థలు.",
+          },
+          {
+            title: "స్ట్రక్చరల్ స్టీల్ భాగాలు",
+            description:
+              "ఇన్‌ఫ్రాస్ట్రక్చర్, పరిశ్రమలు మరియు ప్రజా నిర్మాణాల కోసం అనుకూలంగా తయారు చేసిన స్టీల్ భాగాలు.",
+          },
+        ],
       },
     },
 
@@ -389,7 +467,8 @@ const translations = {
           },
           {
             label: "स्थायित्व",
-            value: "चरम पर्यावरणीय परिस्थितियों का सामना करने के लिए इंजीनियर किया गया।",
+            value:
+              "चरम पर्यावरणीय परिस्थितियों का सामना करने के लिए इंजीनियर किया गया।",
           },
           {
             label: "अनुपालन",
@@ -412,6 +491,44 @@ const translations = {
           text: "राष्ट्रीय प्रगति के लिए बिना किसी समझौते की गुणवत्ता, तकनीकी अनुशासन और टिकाऊ विनिर्माण प्रथाओं के साथ उच्च प्रदर्शन वाले संरचनात्मक समाधान प्रदान करना।",
         },
       },
+    },
+    products: {
+      intro: {
+        eyebrow: "उत्पाद इंजीनियरिंग",
+        title: "सड़कों के लिए निर्मित। सुरक्षा के लिए इंजीनियर्ड।",
+        description:
+          "श्री चक्र इंडस्ट्रीज़ मजबूत, सुरक्षित और बड़े पैमाने पर उपयोग के लिए आवश्यक स्टील इन्फ्रास्ट्रक्चर उत्पादों का निर्माण करती है। प्रत्येक उत्पाद राष्ट्रीय मानकों और वास्तविक परिस्थितियों के अनुसार डिज़ाइन किया जाता है।",
+        stats: [
+          { value: "15+ वर्ष", label: "निर्माण अनुभव" },
+          { value: "ISO 9001", label: "गुणवत्ता प्रमाणित" },
+          { value: "पैन इंडिया", label: "आपूर्ति नेटवर्क" },
+        ],
+      },
+    },
+    grid: {
+      cta: "विवरण देखें",
+      items: [
+        {
+          title: "क्रैश बैरियर्स",
+          description:
+            "हाईवे और एक्सप्रेसवे पर दुर्घटना प्रभाव को कम करने के लिए डिज़ाइन किए गए उच्च शक्ति वाले स्टील क्रैश बैरियर्स।",
+        },
+        {
+          title: "डब्ल्यू-बीम गार्डरेल्स",
+          description:
+            "राष्ट्रीय सड़क सुरक्षा मानकों के अनुसार निर्मित सटीक डब्ल्यू-बीम गार्डरेल सिस्टम।",
+        },
+        {
+          title: "मेटल बीम क्रैश बैरियर्स",
+          description:
+            "वाहन की गति को नियंत्रित कर यात्रियों की सुरक्षा बढ़ाने वाले मजबूत मेटल बीम सिस्टम।",
+        },
+        {
+          title: "स्ट्रक्चरल स्टील कंपोनेंट्स",
+          description:
+            "इन्फ्रास्ट्रक्चर, औद्योगिक और सार्वजनिक परियोजनाओं के लिए कस्टम-निर्मित स्टील घटक।",
+        },
+      ],
     },
 
     language: {
