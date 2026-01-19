@@ -132,6 +132,47 @@ const translations = {
         },
       },
     },
+    products: {
+      intro: {
+        eyebrow: "PRODUCT ENGINEERING",
+        title: "Built for Roads. Engineered for Safety.",
+        description:
+          "Sri Chakra Industries manufactures critical steel infrastructure components designed for durability, safety, and large-scale deployment. Every product is engineered to meet national standards and real-world conditions.",
+        stats: [
+          { value: "15+ YEARS", label: "Manufacturing Experience" },
+          { value: "ISO 9001", label: "Quality Certified" },
+          { value: "PAN INDIA", label: "Supply Network" },
+        ],
+      },
+      grid: {
+        cta: "VIEW DETAILS",
+        items: [
+          {
+            title: "Steel Roofing Sheets",
+            image:
+              "https://i.ibb.co/zVC57vd1/Whats-App-Image-2026-01-13-at-12-24-49-PM.jpg",
+            description:
+              "High-quality steel roofing sheets manufactured for industrial, commercial, and infrastructure applications.",
+            specs: [
+              "Thickness: 0.1mm – 0.5mm",
+              "Available in multiple color finishes",
+              "Custom cut lengths as per customer requirement",
+            ],
+          },
+          {
+            title: "W-Beam Crash Barriers",
+            image: "https://i.ibb.co/hFkVSjPt/w-beam-crash-barrier.jpg",
+            description:
+              "W-Beam crash barrier systems engineered to enhance road safety and meet highway authority standards.",
+            specs: [
+              "Manufactured from high-strength structural steel",
+              "Designed as per IRC / MoRTH specifications",
+              "Suitable for highways and expressways",
+            ],
+          },
+        ],
+      },
+    },
 
     language: {
       en: "English",
@@ -248,11 +289,13 @@ const translations = {
           },
           {
             label: "మన్నిక",
-            value: "తీవ్రమైన పర్యావరణ పరిస్థితులను తట్టుకునేలా రూపకల్పన చేయబడింది.",
+            value:
+              "తీవ్రమైన పర్యావరణ పరిస్థితులను తట్టుకునేలా రూపకల్పన చేయబడింది.",
           },
           {
             label: "ప్రమాణాలు",
-            value: "NHAI మరియు అంతర్జాతీయ ప్రమాణాలకు పూర్తిగా కట్టుబడి ఉంటుంది.",
+            value:
+              "NHAI మరియు అంతర్జాతీయ ప్రమాణాలకు పూర్తిగా కట్టుబడి ఉంటుంది.",
           },
         ],
       },
@@ -270,6 +313,47 @@ const translations = {
           title: "మా మిషన్",
           text: "జాతీయ పురోగతి కోసం రాజీలేని నాణ్యత, సాంకేతిక క్రమశిక్షణ మరియు సమర్థవంతమైన తయారీ పద్ధతులతో అధిక-పనితీరు గల నిర్మాణ పరిష్కారాలను అందించడం మా ధ్యేయం.",
         },
+      },
+    },
+    products: {
+      intro: {
+        eyebrow: "ఉత్పత్తి ఇంజినీరింగ్",
+        title: "రోడ్ల కోసం నిర్మితం. భద్రత కోసం ఇంజినీర్డ్.",
+        description:
+          "శ్రీ చక్ర ఇండస్ట్రీస్ బలమైన, సురక్షితమైన మరియు విస్తృత స్థాయి వినియోగానికి అనువైన కీలక స్టీల్ మౌలిక సదుపాయ ఉత్పత్తులను తయారు చేస్తుంది. ప్రతి ఉత్పత్తి జాతీయ ప్రమాణాలకు అనుగుణంగా రూపొందించబడుతుంది.",
+        stats: [
+          { value: "15+ సంవత్సరాలు", label: "తయారీ అనుభవం" },
+          { value: "ISO 9001", label: "నాణ్యత ధృవీకరణ" },
+          { value: "పాన్ ఇండియా", label: "సరఫరా నెట్‌వర్క్" },
+        ],
+      },
+      grid: {
+        cta: "వివరాలు చూడండి",
+        items: [
+          {
+            title: "స్టీల్ రూఫింగ్ షీట్లు",
+            image:
+              "https://i.ibb.co/zVC57vd1/Whats-App-Image-2026-01-13-at-12-24-49-PM.jpg",
+            description:
+              "పరిశ్రమలు, వాణిజ్య మరియు మౌలిక వసతుల కోసం తయారు చేసిన అధిక నాణ్యత గల స్టీల్ రూఫింగ్ షీట్లు.",
+            specs: [
+              "మందం: 0.1 మిమీ – 0.5 మిమీ",
+              "వివిధ రంగుల్లో అందుబాటులో ఉన్నాయి",
+              "కస్టమర్ అవసరానికి అనుగుణంగా కట్ చేయబడతాయి",
+            ],
+          },
+          {
+            title: "డబ్ల్యూ-బీమ్ క్రాష్ బారియర్లు",
+            image: "https://i.ibb.co/hFkVSjPt/w-beam-crash-barrier.jpg",
+            description:
+              "రహదారి భద్రతను మెరుగుపరచేందుకు రూపొందించిన డబ్ల్యూ-బీమ్ క్రాష్ బారియర్ వ్యవస్థలు.",
+            specs: [
+              "అధిక బలం గల స్ట్రక్చరల్ స్టీల్‌తో తయారు చేయబడింది",
+              "IRC / MoRTH ప్రమాణాల ప్రకారం రూపకల్పన",
+              "హైవేలు మరియు ఎక్స్‌ప్రెస్‌వేలకు అనుకూలం",
+            ],
+          },
+        ],
       },
     },
 
@@ -389,7 +473,8 @@ const translations = {
           },
           {
             label: "स्थायित्व",
-            value: "चरम पर्यावरणीय परिस्थितियों का सामना करने के लिए इंजीनियर किया गया।",
+            value:
+              "चरम पर्यावरणीय परिस्थितियों का सामना करने के लिए इंजीनियर किया गया।",
           },
           {
             label: "अनुपालन",
@@ -411,6 +496,47 @@ const translations = {
           title: "हमारा मिशन",
           text: "राष्ट्रीय प्रगति के लिए बिना किसी समझौते की गुणवत्ता, तकनीकी अनुशासन और टिकाऊ विनिर्माण प्रथाओं के साथ उच्च प्रदर्शन वाले संरचनात्मक समाधान प्रदान करना।",
         },
+      },
+    },
+    products: {
+      intro: {
+        eyebrow: "उत्पाद इंजीनियरिंग",
+        title: "सड़कों के लिए निर्मित। सुरक्षा के लिए इंजीनियर्ड।",
+        description:
+          "श्री चक्र इंडस्ट्रीज़ मजबूत, सुरक्षित और बड़े पैमाने पर उपयोग के लिए आवश्यक स्टील इन्फ्रास्ट्रक्चर उत्पादों का निर्माण करती है। प्रत्येक उत्पाद राष्ट्रीय मानकों और वास्तविक परिस्थितियों के अनुसार डिज़ाइन किया जाता है।",
+        stats: [
+          { value: "15+ वर्ष", label: "निर्माण अनुभव" },
+          { value: "ISO 9001", label: "गुणवत्ता प्रमाणित" },
+          { value: "पैन इंडिया", label: "आपूर्ति नेटवर्क" },
+        ],
+      },
+      grid: {
+        cta: "विवरण देखें",
+        items: [
+          {
+            title: "स्टील रूफिंग शीट्स",
+            image:
+              "https://i.ibb.co/zVC57vd1/Whats-App-Image-2026-01-13-at-12-24-49-PM.jpg",
+            description:
+              "औद्योगिक, वाणिज्यिक और बुनियादी ढांचा परियोजनाओं के लिए निर्मित उच्च गुणवत्ता वाली स्टील रूफिंग शीट्स।",
+            specs: [
+              "मोटाई: 0.1 मिमी – 0.5 मिमी",
+              "विभिन्न रंग विकल्पों में उपलब्ध",
+              "ग्राहक की आवश्यकता अनुसार लंबाई में कटिंग",
+            ],
+          },
+          {
+            title: "डब्ल्यू-बीम क्रैश बैरियर्स",
+            image: "https://i.ibb.co/hFkVSjPt/w-beam-crash-barrier.jpg",
+            description:
+              "सड़क सुरक्षा बढ़ाने के लिए डिज़ाइन किए गए डब्ल्यू-बीम क्रैश बैरियर सिस्टम।",
+            specs: [
+              "उच्च शक्ति वाले स्ट्रक्चरल स्टील से निर्मित",
+              "IRC / MoRTH मानकों के अनुसार डिज़ाइन",
+              "हाईवे और एक्सप्रेसवे के लिए उपयुक्त",
+            ],
+          },
+        ],
       },
     },
 
